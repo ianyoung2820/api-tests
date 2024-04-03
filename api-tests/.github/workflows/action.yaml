@@ -1,5 +1,12 @@
 name: Test Login Endpoint
 
+              
+- name: Authenticate to Google Cloud
+
+
+              
+  uses: google-github-actions/auth@v2.1.2
+
 on: [push]
 
 jobs:
